@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1625513847 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\inputs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"inputs.h"
+	"ui.h"
+
+1624294786 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\inputs.h
+
+1625523301 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\ui.h
+
+1625446107 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1625513847 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\linkedlist.h
+
+1625523683 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\randomizer.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Randomizer.h"
+
+1625523679 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\randomizer.h
+
+1625529011 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\ui.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ui.h"
+	"inputs.h"
+
+1625529033 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ui.h"
+	"LinkedList.h"
+	"Controller.h"
+	"Pais.h"
+	"inputs.h"
+	"Randomizer.h"
+
+1625527276 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\controller.h
+	"Pais.h"
+
+1625528156 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\pais.h
+
+1625529150 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Pais.h"
+	"ui.h"
+	"inputs.h"
+	"parser.h"
+	"Randomizer.h"
+
+1625523082 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\parser.h
+
+1625528076 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\pais.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pais.h"
+
+1625524238 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Pais.h"
+	"Controller.h"
+
