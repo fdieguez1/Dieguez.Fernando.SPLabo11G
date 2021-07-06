@@ -167,8 +167,21 @@ int main()
                 }
             }
             break;
-
         case 7:
+            if(paisCount == 0)
+            {
+                printf("Error!!! --> No hay paises cargados\n");
+            }
+            else if (!banderaMapeadas)
+            {
+                printf("Error!!! --> No se cargaron las estadisticas\n");
+            }
+            else
+            {
+                mayorCantidadSinVacunas(lista);
+            }
+            break;
+        case 8:
             askForChar(&salir,"\nSaliendo del programa.\nOprima 'n' para cancelar,\nOprima cualquier otra tecla para continuar","Error ingrese un caracter", 10 );
             break;
         default:

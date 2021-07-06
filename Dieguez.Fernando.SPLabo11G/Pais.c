@@ -286,20 +286,7 @@ int mayorDeSinVacunar(void* persona)
     }
     return ok;
 }
-int masCastigado(void* persona)
-{
-    int ok = 0;
-    ePais* auxPais = NULL;
-    if (persona != NULL)
-    {
-        auxPais = (ePais*) persona;
-        if (auxPais->sinVacunar > 17)
-        {
-            ok = 1;
-        }
-    }
-    return ok;
-}
+
 int esExitoso(void* persona)
 {
     int ok = 0;
@@ -307,7 +294,7 @@ int esExitoso(void* persona)
     if (persona != NULL)
     {
         auxPais = (ePais*) persona;
-        if (auxPais->vac2Dosis > 30)
+        if (auxPais->vac1Dosis > 30 && auxPais->vac2Dosis > 30)
         {
             ok = 1;
         }
@@ -373,4 +360,7 @@ int pais_cmpVacTotal(void* a, void* b)
     }
     return ret;
 }
+
+
+
 

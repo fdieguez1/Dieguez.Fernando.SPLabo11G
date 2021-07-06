@@ -177,7 +177,7 @@ int pais_cmpName(void* a, void* b);
  */
 int mayorDeSinVacunar(void* pais);
 
-/** \brief  devuelve si un pais es mayor de sinVacunar
+/** \brief  devuelve si un pais es exitoso
  *
  * \param pais void*
  * \return int devuelve 1 si lo es 0 si no
@@ -185,15 +185,8 @@ int mayorDeSinVacunar(void* pais);
  */
 int esExitoso(void* pais);
 
-/** \brief  devuelve si un pais es mayor de sinVacunar
- *
- * \param pais void*
- * \return int devuelve 1 si lo es 0 si no
- *
- */
-int masCastigado(void* pais);
 
-/** \brief  devuelve si un pais es mayor de sinVacunar
+/** \brief  devuelve si un pais esta al horno
  *
  * \param pais void*
  * \return int devuelve 1 si lo es 0 si no
@@ -242,4 +235,5 @@ int pais_setSexo(ePais* this,char sexo);
  *
  */
 int pais_cmpVacTotal(void* a, void* b);
+
 #endif // pais_H_INCLUDED

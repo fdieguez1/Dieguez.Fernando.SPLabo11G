@@ -29,11 +29,13 @@ int menu()
     printf("%c ", LIST_THUMBNAIL);
     printf("6-Guardar como csv\n");
     printf("%c ", LIST_THUMBNAIL);
-    printf("7-Salir\n");
+    printf("7-Pais mas castigado\n");
+    printf("%c ", LIST_THUMBNAIL);
+    printf("8-Salir\n");
     printDivisor();
     printf("\n");
 
-    utn_getNumero(&opcion, "Elija una opcion: ", "Error!!! --> Ingrese un numero valido\n", 1, 11, 10);
+    utn_getNumero(&opcion, "Elija una opcion: ", "Error!!! --> Ingrese un numero valido\n", 1, 8, 10);
     return opcion;
 }
 
@@ -117,9 +119,8 @@ int filterUI()
     printf("\n\n");
     printf("1-Por exitosos\n");
     printf("2-Por al horno\n");
-    printf("3-Por mas castigados\n");
-    printf("4-Cancelar\n");
+    printf("3-Cancelar\n");
     printDivisor();
-    utn_getNumero(&opcion, "Ingrese la opcion: ", "Error!!! --> Reingrese una opcion valida: ", 1, 4, 10);
+    utn_getNumero(&opcion, "Ingrese la opcion: ", "Error!!! --> Reingrese una opcion valida: ", 1, 3, 10);
     return opcion;
 }

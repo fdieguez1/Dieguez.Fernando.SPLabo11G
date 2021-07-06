@@ -153,4 +153,12 @@ void* controller_hardcodeVacunas(void* pPais);
  */
 LinkedList* ll_map(LinkedList* this, void* (pFunc)(void*));
 
+/** \brief devuelve el pais mas castigado
+ *
+ * \param LinkedList* this lista
+ * \param
+ * \return ePais* pais resultante
+ *
+ */
+int mayorCantidadSinVacunas(LinkedList* lista);
 #endif // CONTROLLER_H_INCLUDED

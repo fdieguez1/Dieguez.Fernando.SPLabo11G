@@ -27,14 +27,14 @@
 
 1625523679 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\randomizer.h
 
-1625529011 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\ui.c
+1625530504 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\ui.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"ui.h"
 	"inputs.h"
 
-1625529033 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\main.c
+1625531704 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\main.c
 	<stdio.h>
 	<stdlib.h>
 	"ui.h"
@@ -44,12 +44,12 @@
 	"inputs.h"
 	"Randomizer.h"
 
-1625527276 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\controller.h
+1625531508 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\controller.h
 	"Pais.h"
 
-1625528156 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\pais.h
+1625531088 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\pais.h
 
-1625529150 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\controller.c
+1625531666 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -62,7 +62,7 @@
 
 1625523082 c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\parser.h
 
-1625528076 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\pais.c
+1625531130 source:c:\users\ferna\source\repos\repofer\dieguez.fernando.splabo11g\dieguez.fernando.splabo11g\pais.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

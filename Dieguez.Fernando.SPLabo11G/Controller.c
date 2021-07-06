@@ -343,6 +343,7 @@ int controller_sortPais(LinkedList* pArrayListPais)
 
     do
     {
+
         switch(sortUI())
         {
         case 1:
@@ -382,11 +383,6 @@ int controller_filterPais(LinkedList* pArrayListPais)
             controller_ListPais(filteredList);
             break;
         case 3:
-            printf("Iniciando filtrado\n");
-            filteredList = ll_filter(pArrayListPais, masCastigado);
-            controller_ListPais(filteredList);
-            break;
-        case 4:
             askForChar(&salir, "Realmente desea salir? s/n: ", "Error!!! --> Ingrese una opcion valida", 10);
             break;
         default:
@@ -570,3 +566,30 @@ void* controller_hardcodeVacunas(void* pPais)
     }
     return auxPais;
 }
+
+int mayorCantidadSinVacunas(LinkedList* lista)
+{
+
+	ePais* auxPais = NULL;
+	LinkedList* aux = NULL;
+	int sinVacunas;
+	int mayorSinVacunas;
+	char nombreMenosVacunas[128];
+
+	if(lista!=NULL)
+	{
+		aux = ll_newLinkedList();
+		for(int i = 0;i<ll_len(lista);i++){
+			auxPais = ll_get(lista, i);
+			pais_getSinVacunar(auxPais, &sinVacunas);
+			if(i == 0 || sinVacunas > mayorSinVacunas){
+				mayorSinVacunas = sinVacunas;
+				pais_getNombre(auxPais, nombreMenosVacunas);
+			}
+		}
+		printf("Numero de vacunas pais menos vacunado: %d\n\n", mayorSinVacunas);
+		printf("Nombre %s\n\n", nombreMenosVacunas);
+	}
+	return aux != NULL;
+}
+
